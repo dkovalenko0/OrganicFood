@@ -1,0 +1,22 @@
+.feedback {
+  min-height: 714px;
+  background: url(../img/feedback-bg.png) no-repeat center/cover;
+}
+
+.feedback__content {
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    padding: 50px 0;
+  }
+}
+
+.feedback__hero {
+  .feedback__title {
+    color: $white;
+  }
+}

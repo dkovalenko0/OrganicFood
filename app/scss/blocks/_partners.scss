@@ -1,0 +1,13 @@
+.partners {
+  margin-bottom: 107px;
+}
+
+.partners__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  a {
+    align-self: center;
+  }
+}

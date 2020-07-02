@@ -1,0 +1,79 @@
+.slogan {
+  margin: 78px 0 160px;
+}
+
+.slogan__content {
+  font-family: Raleway;
+
+  &-images {
+    position: relative;
+
+    img {
+      @media (max-width: 1266px) {
+        width: 100%;
+      }
+    }
+
+    .slogan__img-abs {
+      position: absolute;
+      top: -36px;
+      right: -36px;
+
+      @media (max-width: 1266px) {
+        display: none;
+      }
+    }
+  }
+
+  figure {
+    position: relative;
+    display: flex;
+
+    @media (max-width: 1266px) {
+      flex-direction: column;
+    }
+
+    figcaption {
+      position: absolute;
+      top: 50px;
+      right: -40px;
+      z-index: 1;
+      max-width: 574px;
+      font-size: 70px;
+      line-height: 90px;
+
+      @media (max-width: 1266px) {
+        position: relative;
+        top: 0;
+        right: 0;
+        max-width: 100%;
+      }
+
+      @media (max-width: 411px) {
+        font-size: 50px;
+      }
+
+      .slogan__text {
+        &--yellow {
+          color: #fcdb5a;
+        }
+
+        &--pink {
+          color: #db2985;
+        }
+
+        &--green {
+          color: #72aa41;
+        }
+
+        &--orange {
+          color: #f2a137;
+        }
+
+        &--blue {
+          color: #4fb1c9;
+        }
+      }
+    }
+  }
+}
